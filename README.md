@@ -1,12 +1,127 @@
 # robotics datasets
 
-* curation effort to document and consolidate as exhaustive as possible a list of datasets that may be useful for robotics research. 
-* motivation:
+Curation effort to document and consolidate as exhaustive as possible a list of datasets that may be useful for robotics research. 
+
+* **motivation**:
     - deep learning/llms for robotics is fundamentally data hungry
     - lots of distributed datasets shared generously by different robotics labs/ institutions
         - not many efforts at consolidation 
+    - make it easier and more accessible to inspect different robotics datasets
     - multiple heterogenous datasets for different hardware, settings, environment
-    - make it easier to inspect different robotics datasets for own custom problem
+
+# DLR 
+
+* [Scientific datasets list](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13772/)
+
+## datasets
+
+* [Benchmark Maps](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18664/)
+    * 2.5D elevation maps of planetary environment that were collected on Mt. Etna during the space-analogous ARCHES mission. In addition to the raw elevation maps, we provide cost maps that encode the traversibility of the terrain.
+	
+* [CROOS-CV](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13773/)
+    * The CROOS-CV dataset is intended to support and benchmark Computer Vision (CV) development for Close Range On-Orbit Servicing (CROOS). It is an representative image dataset for CROOS operations with distances of 2 m between servicer and client satellite that was recorded under illumination conditions similar to a Low Earth Orbit.
+	
+* [HOWS-CL-25](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18900/)
+    * HOWS-CL-25 is a synthetic dataset especially designed for object classification on mobile robots operating in a changing environment (like a household), where it is important to learn new, never seen objects on the fly.
+	
+* [Long Range Navigation Tests (LRNTs)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13819)
+    * During the ROBEX demo mission space campaign that took place during June–July 2017 on Mt. Etna, Italy, we performed some Long Range Navigation Tests.
+	
+* [Morocco Navigation Tests](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13824)
+    * The Institute was part of the PERASPERA Space Robotics Technologies Cluster in the operational grants OG3 and OG6. In that context, the research group participated in the 2018 November/December field test in the Moroccan desert close to the city of Erfoud.
+	
+* [MMX Navigation Testing Data Set](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18676/)
+    * Public collection of test data that is used to test the DLR Autonomous Navigation Experiment on the MMX Rover for Phobos
+	
+* [Planetary Stereo Solid-State LiDAR Inertial Dataset](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18306)
+    * we release a dataset recorded on the Moon-like environment of Mount Etna, Sicily, with a sensor setup that comprises a stereo camera, a LiDAR and an IMU.
+	
+* [ReSyRIS](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18801/)
+    * The Real-Synthetic Rock Instance Segmentation dataset (ReSyRIS) is created for training and evaluation of rock segmentation, detection and instance segmentation in (quasi-)extra-terrestrial environments.
+	
+* [STIOS](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-17628#gallery/36367)
+    * The Stereo Instances on Surfaces Datensatz (STIOS) is created for evaluation of instance-based algorithm and mainly intended for robotic applications, which is why the dataset refers to horizontal surfaces.
+
+
+* [THR Dataset](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-11999/)
+    * The THR (Top Hat Rail) data set consists of color and depth images from different objects taken from multiple views in different scenes. The data set consists of 9 object classes and can be used e.g. to improve perception algorithms by learning. 
+
+
+
+# Datasets for Autonomous Systems and Robotics
+
+- reference: [Datasets for Autonomous Systems and Robotics](https://www.simonwenkel.com/lists/datasets/list-of-datasets-for-autonomous-systems-and-robotics.html)
+
+* [Apollo Scape](http://apolloscape.auto/scene.html)  
+
+* Agarwal etc. al (2020): Ford Multi-AV Seasonal Dataset. 
+  - [arXiv:2003.07969](https://arxiv.org/abs/2003.07969),    
+  - [Ford AV Datasets](https://avdata.ford.com/)
+   
+* Behley et al. (2019): SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences. arXiv:   (https://arxiv.org/abs/1904.01416)1904.01416  
+
+* [Bosch Small Traffic Lights Dataset](https://github.com/bosch-ros-pkg/bstld) 
+  - Object detection dataset for traffic lights in road recordings 
+    
+* Braun et al. (2019): The EuroCity Persons Dataset.    
+  - [link](https://eurocity-dataset.tudelft.nl/eval/overview/home)
+   
+* Caesar et al. (2019): nuScenes: A multimodal dataset for autonomous driving. 
+  - [arXiv:1903.11027](https://arxiv.org/abs/1903.11027) ;    
+  - [nuScenes](https://www.nuscenes.org/)
+    - includes RADAR data as well
+  
+* [CARLA Imitation learning](https://github.com/carla-simulator/imitation-learning/#user-content-dataset)  
+  
+* Change et al. (2019): [Argoverse](https://www.argoverse.org/): 
+  - 3D Tracking and Forecasting with Rich Maps. CVPR 2019. [PDF](http://openaccess.thecvf.com/content_CVPR_2019/html/Chang_Argoverse_3D_Tracking_and_Forecasting_With_Rich_Maps_CVPR_2019_paper.html)
+
+* Chen et al. (2016): [Anticipating Accidents in Dashcam Videos](http://aliensunmin.github.io/project/dashcam/). ACCV 2016 Oral. 
+  
+* [Chilean Underground Mine Dataset](http://dataset.amtc.cl/)  
+  
+* [Cityscapes](https://www.cityscapes-dataset.com/)
+   
+* Déziel et al. (2021): PixSet : An Opportunity for 3D Computer Vision to Go Beyond Point Clouds With a Full-Waveform LiDAR Dataset. 
+  - [arXiv:2102.12010](https://arxiv.org/abs/2102.12010),    
+  - [Leddar PixSet ](https://leddartech.com/solutions/leddar-pixset-dataset/)
+   
+* Geyer et al. (2020): A2D2: Audi Autonomous Driving Dataset. 
+  - [arXiv:2004.06320](https://arxiv.org/abs/2004.06320);
+  - [A2D2](https://www.a2d2.audi/a2d2/en/dataset.html) 
+   
+* Kesten et al. (2019): [Lyft Level 5 AV Dataset 2019](https://level5.lyft.com/dataset/)  
+  
+* [KITTI Vision Benchmark Suite ](http://www.cvlibs.net/datasets/kitti/)
+   
+* Maddern et al. (2016): 1 Year, 1000km: [The Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/).
+  - The International Journal of Robotics Research (IJRR), 2016. [pdf](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf)  
+
+* Mallios et al. (2017): [Underwater caves sonar and vision data set](https://cirs.udg.edu/caves-dataset/).
+  - The International Journal of Robotics Research, 2017 (36), 1247-1251. [doi: 10.1177/0278364917732838](https://doi.org/10.1177/0278364917732838)  
+  
+* [Mapillary Vistas](https://www.mapillary.com/dataset/vistas) 
+   
+* [PandaSet by Hesai and Scale AI ](https://pandaset.org/)
+   
+* Schafer et al. (2018): A Commute in Data: The comma2k19 Dataset. [arXiv:1812.05752](https://arxiv.org/abs/1812.05752);
+  - [comma2k19](https://github.com/commaai/comma2k19) 
+   
+* [Udacity Self-Driving Car Dataset](https://github.com/udacity/self-driving-car/) ; 
+  - relabeled on [roboflow](https://public.roboflow.com/object-detection/self-driving-car) 
+   
+* [Waymo dataset](https://waymo.com/open) 
+   
+* Yu et al. (2018): BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling. 
+  - [arXiv:1805.04687](https://arxiv.org/abs/1805.04687);
+  - [Berkeley DeepDrive](https://bdd-data.berkeley.edu/)
+
+
+# Open X-Embodiment: Google
+
+* [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://robotics-transformer-x.github.io/)
+    - dataset details [link](https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit#gid=0)
+    - code [link](https://console.cloud.google.com/storage/browser/gresearch/robotics/open_x_embodiment_and_rt_x_oss;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 
 # awesome-robotics-datasets github list
 - https://github.com/mint-lab/awesome-robotics-datasets/blob/master/README.md
@@ -147,80 +262,3 @@
   * Tags: Stereo matching, 3D reconstruction, MRF, optical flow, color
 * [Caltech CVG Datasets](http://www.vision.caltech.edu/archive.html)
   * Tags: Objects (pedestrian, car, face), 3D reconstruction (on turntables)
-
-
-# DLR 
-
-* [Scientific datasets list](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13772/)
-
-## datasets
-
-* [Benchmark Maps](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18664/)
-    * 2.5D elevation maps of planetary environment that were collected on Mt. Etna during the space-analogous ARCHES mission. In addition to the raw elevation maps, we provide cost maps that encode the traversibility of the terrain.
-	
-[CROOS-CV](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13773/)
-The CROOS-CV dataset is intended to support and benchmark Computer Vision (CV) development for Close Range On-Orbit Servicing (CROOS). It is an representative image dataset for CROOS operations with distances of 2 m between servicer and client satellite that was recorded under illumination conditions similar to a Low Earth Orbit.
-	
-[HOWS-CL-25](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18900/)
-HOWS-CL-25 is a synthetic dataset especially designed for object classification on mobile robots operating in a changing environment (like a household), where it is important to learn new, never seen objects on the fly.
-	
-[Long Range Navigation Tests (LRNTs)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13819)
-During the ROBEX demo mission space campaign that took place during June–July 2017 on Mt. Etna, Italy, we performed some Long Range Navigation Tests.
-	
-[Morocco Navigation Tests](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-13824)
-The Institute was part of the PERASPERA Space Robotics Technologies Cluster in the operational grants OG3 and OG6. In that context, the research group participated in the 2018 November/December field test in the Moroccan desert close to the city of Erfoud.
-	
-[MMX Navigation Testing Data Set](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18676/)
-Public collection of test data that is used to test the DLR Autonomous Navigation Experiment on the MMX Rover for Phobos
-	
-[Planetary Stereo Solid-State LiDAR Inertial Dataset](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18306)
-e release a dataset recorded on the Moon-like environment of Mount Etna, Sicily, with a sensor setup that comprises a stereo camera, a LiDAR and an IMU.
-	
-[ReSyRIS](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-18801/)
-The Real-Synthetic Rock Instance Segmentation dataset (ReSyRIS) is created for training and evaluation of rock segmentation, detection and instance segmentation in (quasi-)extra-terrestrial environments.
-	
-STIOS
-The Stereo Instances on Surfaces Datensatz (STIOS) is created for evaluation of instance-based algorithm and mainly intended for robotic applications, which is why the dataset refers to horizontal surfaces.
-thr_kr16_120 	
-THR Dataset
-The THR (Top Hat Rail) data set consists of color and depth images from different objects taken from multiple views in different scenes. The data set consists of 9 object classes and can be used e.g. to improve perception algorithms by learning. 
-
-
-    - Apollo Scape
-        http://apolloscape.auto/scene.html
-
-    - Agarwal etc. al (2020): Ford Multi-AV Seasonal Dataset. [arXiv:2003.07969](https://arxiv.org/abs/2003.07969), [Ford AV Datasets](https://avdata.ford.com/)
-    
-    - Behley et al. (2019): SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences. arXiv:1904.01416
-    - Bosch Small Traffic Lights Dataset
-        Object detection dataset for traffic lights in road recordings
-
-    Braun et al. (2019): The EuroCity Persons Dataset. link
-    Caesar et al. (2019): nuScenes: A multimodal dataset for autonomous driving. arXiv:1903.11027; nuScenes includes RADAR data as well
-    CARLA Imitation learning
-    Change et al. (2019): Argoverse: 3D Tracking and Forecasting with Rich Maps. CVPR 2019.PDF.
-    Chen et al. (2016): Anticipating Accidents in Dashcam Videos. ACCV 2016 Oral.
-    Chilean Underground Mine Dataset
-
-    Cityscapes
-
-    Déziel et al. (2021): PixSet : An Opportunity for 3D Computer Vision to Go Beyond Point Clouds With a Full-Waveform LiDAR Dataset. arXiv: 2102.12010, Leddar PixSet
-
-    Geyer et al. (2020): A2D2: Audi Autonomous Driving Dataset. arXiv: 2004.06320; A2D2
-    Kesten et al. (2019): Lyft Level 5 AV Dataset 2019
-
-    KITTI Vision Benchmark Suite
-    Maddern et al. (2016): 1 Year, 1000km: The Oxford RobotCar Dataset. The International Journal of Robotics Research (IJRR), 2016. pdf
-    Mallios et al. (2017): Underwater caves sonar and vision data set. The International Journal of Robotics Research, 2017 (36), 1247-1251. doi: 10.1177/0278364917732838
-
-    Mapillary Vistas
-
-    PandaSet by Hesai and Scale AI
-
-    Schafer et al. (2018): A Commute in Data: The comma2k19 Dataset. arXiv:1812.05752; comma2k19
-
-    Udacity Self-Driving Car Dataset; relabeled on roboflow
-
-    Waymo dataset
-    Yu et al. (2018): BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling. arXiv:1805.04687; Berkeley DeepDrive
-
