@@ -1,3 +1,4 @@
+![AI genenerated banner](assets/banner.png)
 # robotics datasets
 
 Curation effort to document and consolidate as exhaustive as possible a list of datasets that may be useful for robotics research. 
